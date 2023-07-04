@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2F2F33;
+    color: white;
+}
+
+#app {
+    max-width: 1120px;
+    margin: auto;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+input {
+    width: 462px;
+    height: 30px;
+    background-color: #06161B;
+    border-radius: .5rem;
+    border: 1px solid #092D38;
+    padding: .8rem;
+    color: white;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #065E7C;
+    color: white;
+    width: 170px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: .5rem;
+    padding: .8rem;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.user img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.user p {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.user a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+
+    border: 1px solid #06161B;
+}
+
+table thead tr th {
+    background-color: #06161B;
+}
+
+table tr:nth-child(odd) {
+    background-color: #092D38;
+}
+
+table tr:nth-child(even) {
+    background-color: #06161B;
+}
+
+thead td th{
+    padding: 1rem;
+}
+
+table th {
+    padding: 1rem;
+}
+
